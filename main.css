@@ -22,6 +22,7 @@ header {
 .burger-menu>img {
   display: none;
 }
+
 .logo h1 {
   font-size: 14px;
   color: #fff;
@@ -44,6 +45,7 @@ nav li a {
   font-weight: 500;
   font-size: 14px;
 }
+
  nav a::after {
   content: "";
   width: 0;
@@ -146,25 +148,6 @@ footer p {
   text-align: center;
   color: #fff;
 }
-/* .close-menu {
-  height: 2px;
-  position: relative;
-}
-.close-menu div {
-  width: 25px;
-  height: 2px;
-  background-color: white;
-  transform-origin: center;
-}
-.one {
-  transform: rotate(45deg);
-}
-.two {
-  position: absolute;
-  top: 0;
-  transform: rotate(-45deg); 
-  }*/
-
 @media screen and (max-width: 768px) {
  body  {
     background-color: #181719;
@@ -176,10 +159,67 @@ footer p {
     padding: 1rem;
     border-radius: 0; 
   }
-   header>nav {
+   /* header>nav {
     display: none;
-    
+   } */
+   nav a::after {
+     display: none;
    }
+  .close-menu {
+  height: 2px;
+  position: absolute;
+  top: 30px;
+  right: 22px;
+  }
+
+ 
+  .close-menu div {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    transform-origin: center;
+  }
+  .one {
+    transform: rotate(45deg);
+  }
+  .two {
+    position: absolute;
+    top: 0;
+    transform: rotate(-45deg); 
+    }
+
+   nav {
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 10;
+     background-color: black;
+     display: none;
+   }
+   header nav ul  {
+     margin-top: 250px;
+     overflow: hidden;
+     display: block;
+   }
+   header nav ul.open {
+     height: auto;
+   }
+   header nav ul li {
+     float: none;
+     text-align: center;
+     width: 100%;
+     margin-bottom: 40px;
+   }
+   header nav ul li a {
+     font-size: 20px;
+
+    border-bottom: 2px solid #fff; 
+  
+   } 
+   
+
    .logo {
      width: 30%;
    }
@@ -191,6 +231,7 @@ footer p {
      width: 20px;
      display: block;
      cursor: pointer;
+     margin-right: 0.5rem;
    }
   section {
    margin-top: 0;
