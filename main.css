@@ -165,8 +165,8 @@ footer p {
   .close-menu {
   height: 2px;
   position: absolute;
-  top: 30px;
-  right: 22px;
+  top: 31px;
+  right: 31px;
   }
   .close-menu div {
     width: 25px;
@@ -193,7 +193,7 @@ footer p {
      display: none;
    }
    header nav ul  {
-     margin-top: 250px;
+     margin-top: 170px;
      overflow: hidden;
      display: block;
    }
