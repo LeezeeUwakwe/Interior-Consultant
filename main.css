@@ -159,9 +159,6 @@ footer p {
     padding: 1rem;
     border-radius: 0; 
   }
-   /* header>nav {
-    display: none;
-   } */
    nav a::after {
      display: none;
    }
@@ -171,8 +168,6 @@ footer p {
   top: 30px;
   right: 22px;
   }
-
- 
   .close-menu div {
     width: 25px;
     height: 2px;
@@ -187,7 +182,6 @@ footer p {
     top: 0;
     transform: rotate(-45deg); 
     }
-
    nav {
      width: 100vw;
      height: 100vh;
@@ -213,13 +207,9 @@ footer p {
      margin-bottom: 40px;
    }
    header nav ul li a {
-     font-size: 20px;
-
+    font-size: 20px;
     border-bottom: 2px solid #fff; 
-  
    } 
-   
-
    .logo {
      width: 30%;
    }
@@ -231,7 +221,7 @@ footer p {
      width: 20px;
      display: block;
      cursor: pointer;
-     margin-right: 0.5rem;
+     margin-right: 1.2rem;
    }
   section {
    margin-top: 0;
