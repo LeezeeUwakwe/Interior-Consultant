@@ -281,9 +281,9 @@ footer {
   z-index: 20;
 }
 footer p {
-  margin-top: 120px;
+  margin-top: 150px;
   font-size: 11px;
-  width: 304px;
+  /* width: 304px; */
 }
  
  
